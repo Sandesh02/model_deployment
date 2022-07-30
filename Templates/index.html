@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>RUL Prediction</title>
+
+</head>
+<body>
+    <div id="bg">
+    <div class="center">
+    <h1 >RUL prediction</h1>
+
+    <h3>choose a csv file to predict Remaning Useful Life.</h3>
+
+
+    <form action = "/predict" method = "post" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input type = "submit" value="Upload" class="btn btn-primary mb-2">
+    </form>
+    </div>
+    </div>
+</body>
+<style>
+    h1{
+    align-items:'centre';
+}
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bg {
+  background-image: url(img.png);
+
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #6a4a70;
+    padding: 10px;
+    text-align: center;
+    color: #f5220a;
+
+  }
+
+
+
+</style>
+
+</html>
+
