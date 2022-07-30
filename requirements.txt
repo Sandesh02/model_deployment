@@ -1,0 +1,8 @@
+math
+sklearn
+flask
+matplotlib
+numpy
+pandas
+keras
+IPython
