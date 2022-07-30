@@ -6,3 +6,4 @@ pandas
 keras
 IPython
 gunicorn
+wsgi
